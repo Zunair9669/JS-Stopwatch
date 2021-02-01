@@ -1,0 +1,120 @@
+body{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+
+
+.container{
+    margin-top: 12% !important; 
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10%;
+  -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+      transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+/* ..............................BUTTONS.......................... */
+
+
+
+.btn-outline-dark{
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.btn-outline-dark:focus{
+    box-shadow: none !important;
+}
+
+.btn-outline-dark:active{
+    font-size: 26px !important;
+}
+
+
+.btn-outline-info{
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.btn-outline-info:focus{
+    box-shadow: none !important;
+}
+
+
+.btn-outline-info:active{
+    font-size: 26px !important;
+}
+
+
+.btn-outline-danger{
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.btn-outline-danger:focus{
+    box-shadow: none !important;
+}
+
+.btn-outline-danger:active{
+    font-size: 26px !important;
+}
+
+
+
+
+
+
+/* ...............................FOOTER.................................. */
+
+
+
+footer > h3{
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+}
